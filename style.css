@@ -214,3 +214,194 @@ body {
     font-weight: 500;
     cursor: pointer;
 }
+.garage h1 {
+    font-size: 24px;
+    font-weight: 500;
+    color: #ffffff;
+    margin-top: 30px;
+}
+.garagesection {
+    gap: 50px;
+}
+.imagebox {
+    display: block;
+    align-items: center;
+    gap: 30px;
+}
+.imagebox img {
+    width: 300px;
+    height: 250px;
+    border-radius: 20px;
+}
+.imagebox p {
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 10px;
+}
+.imagebox button {
+    width: 120px;
+    height: 40px;
+    background-color: #ffffff;
+    color: #000000;
+    border-radius: 10px;
+    border: #ffffff;
+    font-size: 20px;
+    font-weight: 500;
+}
+.garagesection2 {
+    gap: 50px;
+}
+.garagebutton button {
+    width: 190px;
+    height: 40px;
+    background-color: #ffffff;
+    color: #000000;
+    border-radius: 10px;
+    border: #ffffff;
+    margin-top: 60px;
+    font-size: 16px;
+    font-weight: 500;
+}
+.deals h1 {
+    font-size: 24px;
+    font-weight: 500;
+    color: #ffffff;
+    margin-top: 30px;
+}
+.deal {
+    margin-top: 40px;
+    gap: 150px;
+}
+.deal2 {
+
+    gap: 150px;
+    margin-top: 20px;
+}
+.imagebox1 {
+    display: block;
+    align-items: center;
+    gap: 50px;
+}
+.imagebox1 p {
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 10px;
+}
+.imagebox1 button {
+    width: 120px;
+    height: 40px;
+    background-color: #ffffff;
+    color: #000000;
+    border-radius: 10px;
+    border: #ffffff;
+    font-size: 20px;
+    font-weight: 500;
+}
+.imagebox1 img {
+    width: 300px;
+    height: 200px;
+    border-radius: 20px;
+}
+.brokenline {
+    width: 200px;
+   border: 1px solid #FFF504;
+   margin-top: 20px;
+}
+.what h1 {
+    font-size: 24px;
+    font-weight: 500;
+    color: #ffffff;
+    margin-top: 30px;
+}
+.whatbox {
+    width: 100%;
+    margin-left: 40px;
+}
+.what_text {
+    border: #ffffff;
+    height: 150px;
+    width: 400px;
+    background-color: #ffffff;
+    color: #000000;
+    align-items: center;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+.what_text p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #000000;
+    padding: 10px;
+}
+.cardbox {
+    width: 100%;
+    margin-left: 40px;
+}
+.talk {
+    border: 1px solid #FFF504;
+    height: 100%;
+    width: 100%;
+    background-color: #000000;
+    color: #ffffff;
+    align-items: center;
+    margin-top: 20px;
+    border-radius: 10px;
+    padding: 10px;
+}
+.talk h1 {
+    font-size: 20px;
+    font-weight: 500;
+    color: #ffffff;
+    margin-top: 20px;
+}
+.namebox {
+    border: 1px solid #FFF504;
+    height: 30px;
+    width: 100%;
+    background-color: #000000;
+    color: #ffffff;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+.whatabout {
+    border: 1px solid #FFF504;
+    height: 100px;
+    width: 100%;
+    background-color: #000000;
+    color: #ffffff;
+    margin-top: 20px;
+    border-radius: 5px;
+    align-items: center;
+}
+.talk button {
+    width: 120px;
+    height: 40px;
+    background-color: #ffffff;
+    color: #000000;
+    border-radius: 10px;
+    border: #ffffff;
+    font-size: 20px;
+    font-weight: 500;
+}
+.talkbox {
+    border: 1px solid #FFF504;
+    height: 40px;
+    width: 100%;
+    background-color: #000000;
+    color: #ffffff;
+    margin-top: 20px;
+    border-radius: 5px;
+    padding: 5px;
+    align-items: center;
+}
+.faqbox {
+    border: 1px solid #FFF504;
+    height: 50px;
+    width: 100%;
+    background-color: #000000;
+    color: #ffffff;
+    margin-top: 20px;
+    border-radius: 5px;
+    padding: 5px;
+    align-items: center;
+}
