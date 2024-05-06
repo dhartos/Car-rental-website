@@ -74,10 +74,10 @@
                 <div class="herobuttons_2">
                 <button id="explore">Explore Our Garage</button>
             </div>
-        </div>
+            </div>
+            </div>
             </div>
         </div>
-    </div>
               <div class="col-md-6 mx-auto">
                 <div class="model">
                     <h1 class="text-center">Our Model</h1>
@@ -94,8 +94,8 @@
             </div>
 
             <div class="line"></div>
-<div class="row">
-    <div class="why">
+        <div class="row">
+            <div class="why">
             <div class="col-md-6">
                 <div class="why_left">
                     <h1>Why Us</h1>
@@ -117,8 +117,8 @@
             <div class="why_right">
                 <img src="whycar.jpg" alt="car">
             </div>
-    </div>
-</div>
+            </div>
+        </div>
             <div class="line"></div>
             <div class="about">
                     <h1>About Us</h1>
@@ -164,7 +164,7 @@
             </div>
             </div>
             <div class="col-md-6 mx-auto">
-            <div class="garage">
+            <div class="garage mx-auto">
                 <h1>Our Garage</h1>
             </div>
         </div>
@@ -197,9 +197,9 @@
                     </div>
                 </div>
                 </div>
+                </div>
             </div>
-        </div>
-                <div class="garagesection2">
+                    <div class="garagesection2">
                     <div class="row ms-5">
                         <div class="col-md-4 mb-5">
                     <div class="imagebox">
@@ -224,13 +224,13 @@
                         <button id="read">Explore Our Garage</button>
                     </div>
                 </div>
+                </div>
             </div>
-        </div>
-        <div class="col-md-6 mx-auto">
-            <div class="deals">
-                <h1>Best Deals For The Month</h1>
+            <div class="col-md-6 mx-auto">
+                <div class="deals">
+                    <h1>Best Deals For The Month</h1>
+                </div>
             </div>
-        </div>
                 <div class="deal">
                     <div class="row ms-5">
                         <div class="col-md-4 mb-5">
@@ -269,8 +269,8 @@
                 </div>
               </div>
             </div>
-        </div>
-        </div>
+            </div>
+            </div>
             <div class="brokenline mx-auto"></div>
 
             <div class="col-md-6 mx-auto">
@@ -278,7 +278,7 @@
                 <h1>What Our Customers Say</h1>
             </div>
         </div>
-                <div class="whatbox">
+                <div class="whatbox mx-auto">
                     <div class="row ms-5">
                         <div class="col-md-4 mb-5">
                 <div class="what_text">
@@ -301,27 +301,29 @@
             </div>
         </div>
         <div class="brokenline mx-auto"></div>
-        <div class="carbox">
-            <div class="row ms-5">
+        <div class="cardbox mx-auto">
+            <div class="row">
                 <div class="col-md-4 mb-5">
-            <div class="talk">
-                <h1>Talk To Us</h1>
-                <div class="namebox">
-                    <form action="name">Name</form>
-                </div>
-                    <div class="whatabout">
-                        <p>What do you want to talk about?</p>
+                    <div class="talk">
+                        <h1>Talk To Us</h1>
+                        <div class="namebox">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" name="name">
+                        </div>
+                        <div class="whatabout">
+                            <label for="content">What do you want to talk about?</label>
+                            <textarea id="content" name="content"></textarea>
+                        </div>
+                        <button id="send" class="mx-auto">Send</button>
                     </div>
-                    <button id="send mx-auto">Send</button>
-            
-            </div>
-        </div>
-            <div class="col-md-4 mb-5">
-            <div class="talk">
-                <h1>FAQ</h1>
-                <div class="talkbox">
-                   <P>Click on each questions to show answer.</P>
                 </div>
+                <div class="col-md-4 mb-5">
+                    <div class="talk">
+                        <h1>FAQ</h1>
+                        <div class="talkbox">
+                            <p>Click on each question to show answer.</p>
+                        </div>
+        
                    <div class="faqbox">
                     <p>How long does it take to get a car hired?</p>
                    </div>
@@ -338,57 +340,68 @@
                     <p>Do you profile your customers based on appearance to decide renting to them or not?</p>
                    </div>
          
+                    </div>
+                </div>
             </div>
         </div>
-    </div>
-</div>
-        <div class="back">
-            <button id="back">Bck to top</button>
-        </div>
-        <footer>
-            <div class="col-md-6">
-                <div class="column1">
-                    <h1>Dharlenda</h1>
-                    <p>Head Office</p>
-                    <p2>12b Gida avenue, Reiba,<br> Oyo State</p2>
-                    <p>Branch Offices</p>
-                    <p2>Abuja</p2>
-                    <p2>Houston</p2>
-                    <p2>Lagos</p2>
-                    <p2>Texas</p2>
+        <div class="col-md-6">
+                <div class="back">
+                    <button id="back">Back to top</button>
                 </div>
             </div>
-            <div class="col-md-6">
-                <div class="column2">
-                    <p>Homepage</p>
-                    <p>About Us</p>
-                    <p>FAQs</p>
+            <footer>
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="column">
+                            <div class="column1">
+                                <h1>Dharlenda</h1>
+                                <p>Head Office</p>
+                                <p class="p2">12b Gida avenue, Reiba, Oyo State</p>
+                                <p>Branch Offices</p>
+                                <div class="branch">
+                                    <div class="column1">
+                                        <p>Lagos</p>
+                                        <p>Abuja</p>
+                                        <p>Houston</p>
+                                        <p>Texas</p>
+                                    </div>
+                                </div>
+                                <div class="bottom">
+                                    <p>DharLenda@gmail.com</p>
+                                    <p><i>c</i>2009</p>
+                                    <div class="logo">
+                                        <img src="Union (1).png" alt="logo">
+                                        <button id="rent">Rent Here</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-2">
+                        <div class="column2">
+                            <p>Homepage</p>
+                            <p>About Us</p>
+                            <p>FAQs</p>
+                        </div>
+                    </div>
+                    <div class="col-md-2">
+                        <div class="column2">
+                            <p>Services</p>
+                            <p>Privacy Policy</p>
+                            <p>Terms of Service</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="column2">
+                            <p>Twitter</p>
+                            <p>Snapchat</p>
+                            <p>LinkedIn</p>
+                            <p>Instagram</p>
+                        </div>
+                    </div>
                 </div>
-            </div>
-            <div class="col-md-6">
-                <div class="column2">
-                    <p>Services</p>
-                    <p>Privacy Policy</p>
-                    <p>Terms of Service</p>
-                </div>
-            </div>
-            <div class="col-md-6">
-                <div class="column2">
-                    <p>Twitter</p>
-                    <p>Snapchat</p>
-                    <p>LinkedIn</p>
-                    <p>Instagram</p>
-                </div>
-            </div>
-            <div class="bottom">
-                <p>DharLenda@gmail.com</p>
-                <p><i>c</i>2009</p>
-                <div class="logo">
-                    <img src="" alt="">
-                    <button id="rent">Rent Here</button>
-                </div>
-            </div>
-        </footer>
+            </footer>
+            
         </div>
         </div>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
