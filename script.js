@@ -14,5 +14,18 @@ document.addEventListener('DOMContentLoaded', function () {
         // You can also reset the input fields after submission
         document.getElementById('name').value = '';
         document.getElementById('content').value = '';
+        
+        // Create and style the popup message
+        var popup = document.createElement('div');
+        popup.textContent = 'Your enquiry has been sent. Check your email for response.';
+        popup.classList.add('popup');
+        
+        // Append the popup to the document body
+        document.body.appendChild(popup);
+        
+        // Remove the popup after a certain time (e.g., 3 seconds)
+        setTimeout(function () {
+            popup.remove();
+        }, 5000);
     });
 });

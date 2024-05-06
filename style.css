@@ -338,10 +338,14 @@ body {
     color: #000000;
     padding: 10px;
 }
+.containers {
+    width: 80%;
+    margin: 0 auto; 
+    margin-top: 30px;
+}
 .cardbox {
     width: 100%;
-    margin-left: auto;
-    margin-right: auto; 
+    margin:auto;
 }
 .talk {
     border: 1px solid #FFF504;
@@ -349,35 +353,38 @@ body {
     width: 100%;
     background-color: #000000;
     color: #ffffff;
-    align-items: center;
-    margin-top: 50px;
     border-radius: 10px;
     padding: 10px;
 }
 .talk h1 {
-    font-size: 20px;
-    font-weight: 500;
-    color: #ffffff;
-    margin-top: 20px;
+    font-size: 24px;
+    margin-top: 10px;
 }
 .namebox {
-    border: 1px solid #FFF504;
-    height: 30px;
-    width: 100%;
+    border: 1px solid #FFF504;;
     background-color: #000000;
     color: #ffffff;
     margin-top: 20px;
     border-radius: 5px;
+    padding: 5px;
 }
 .whatabout {
-    border: 1px solid #FFF504;
-    height: 200px;
-    width: 100%;
+    border: 1px solid #FFF504;;
     background-color: #000000;
     color: #ffffff;
     margin-top: 20px;
     border-radius: 5px;
-    align-items: center;
+    padding: 5px;
+}
+.namebox input,
+.whatabout textarea {
+    width: calc(100% - 12px);
+    border: none;
+    background-color: transparent;
+    color: #ffffff;
+    font-size: 16px;
+    padding: 5px;
+    margin-top: 5px; 
 }
 .whatabout p {
     font-size: 16px;
@@ -385,16 +392,29 @@ body {
     padding: 5px;
 }
 .talk button {
-    width: 120px;
+    width: 100%; 
     height: 45px;
     background-color: #ffffff;
     color: #000000;
     border-radius: 10px;
-    border: #ffffff;
+    border: none;
     font-size: 20px;
     font-weight: 500;
-    margin-top: 30px;
+    margin-top: 20px;
 }
+.popup {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #ffffff;
+    color: #000000;
+    padding: 10px 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    z-index: 9999;
+}
+
 .talkbox {
     border: 1px solid #FFF504;
     height: 40px;
@@ -413,7 +433,7 @@ body {
     padding: 5px;
 }
 .faqbox p {
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 400;
     padding: 5px;
 }
@@ -488,7 +508,7 @@ footer {
     display: flex;
     justify-content: space-between;
     gap: 50px;
-    margin-top: 40px;
+    margin-top: 10px;
 }
 .logo {
     display: flex;
